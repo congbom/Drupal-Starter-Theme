@@ -1,0 +1,87 @@
+/*
+Theme Name: HTML Theme Started
+Theme URI: http://timeuniversal.vn
+Author: Time Universal
+Author URI: http://timeuniversal.vn
+Description: Designed by Time Universal
+Version: 1.0
+*/
+
+*, 
+*:after, 
+*:before {
+    box-sizing: border-box;    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+}
+.clearfix:before, 
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* The content */
+.the-content p,
+.the-content h1,
+.the-content h2,
+.the-content h3,
+.the-content h4,
+.the-content h5,
+.the-content h6,
+.the-content ul,
+.the-content table,
+.the-content iframe {
+    margin: 13px 0;
+}
+.the-content p {
+    line-height: 22px;
+}
+.the-content li {
+    margin:6.5px 0 6.5px 40px;
+}
+.the-content ul li {
+    list-style: disc ;
+}
+.the-content ol li {
+    list-style: decimal;
+}
+
+
+/* Tablet landscape */
+@media screen and (max-width: 1250px) { 
+
+}
+
+/* Tablet portrait */
+@media screen and (max-width: 1000px) {     
+    
+}
+
+/* Smartphone landscape */
+@media screen and (max-width: 700px) {      
+    
+}
+
+/* Smartphone portrait */
+@media screen and (max-width: 400px) {      
+    
+}
